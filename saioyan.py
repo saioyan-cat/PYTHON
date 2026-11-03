@@ -1,2 +1,3 @@
+import streamlit as st
 for i in range(100):
-  print(i)
+  st.write(str(i))
